@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./2024.css">
+   
+</head>
+<body>
+
+    <div class="start">
+        <div class="startone"></div>
+        <div class="starttwo"></div>
+    </div>
+    <button onclick="startAnimation()" id="style1">新春倒计时</button>
+
+    <div class="start1">
+        <div class="startthree"></div>
+    </div>
+    <div class="start2">
+        <div class="startfour"></div>
+    </div>
+    <button onclick="startmove()" id="style2">新春倒计时</button>
+
+    <div class="fu"></div>
+    <div class="greetbox"></div>
+    
+
+
+   
+
+
+    
+    <header onmouseover="xxx('https://www.online-convert.com/result#j=0a78fef4-16a7-4139-aaa7-55099f0742bb&qr=true')">
+        <div class="frist">
+            <div class="left all">
+                <img src="./img/边框.png" alt="" >
+            </div>
+            <div class="mid">
+                <img src="./img/shang.png" alt="">
+            </div>
+            <div class="right all">
+                <img src="./img/边框.png" alt="" >
+            </div>
+        </div>
+
+       <div class="second">
+        <div class="left">
+            <img src="./img/图腾.png" alt="">
+        </div>
+        <div class="right">
+            <img src="./img/meihua.png" alt="">
+        </div>
+       </div>
+        
+    </header>
+    
+    <div id="cross">
+        <div id="man" class="man">
+        </div>
+     </div>
+    
+
+     <div class="other1"> 
+     </div>
+     <div class="other2"> 
+    </div>
+    <div class="other3"> 
+    </div>
+    
+
+     <main onmouseover="xxx('./音乐/music.mp3')">
+        <div class="home">
+            <div class="body">
+                
+                    <img src="./img/边框/图层 1.png" alt="" class="top">
+                
+                <div class="bottom">
+                    
+                        <img src="./img/边框/right.png" alt="" class="left">
+                        <img src="./img/龙财神.gif" alt="" class="mid">
+                        <img src="./img/边框/right right.png" alt="" class="right">
+                </div>
+            </div>
+           
+            <div class="box">
+                <p class="ex">新春快乐</p>
+                <p class="text" id="textone">新春</P>
+                    <div id="sanzi"></div>
+                <div class="countdown">
+                    <button class="an">
+                        <div class="over before">
+                            <div class="one">
+                                <div class="hour back">00</div>
+                            </div>
+                        </div>
+                      
+                        <div class="over before">
+                            <div class="one">
+                                <div class="minute back">00</div>
+                            </div>
+                        </div>
+                       
+                        <div class="over after">
+                            <div class="two">
+                                <div class="second back">00</div>
+                              </div>
+                        </div>
+                
+                
+                    
+                    </button>
+                </div>
+                <p class="text">倒计时</p>
+                <div id="lantern"></div>
+               
+            </div>
+        </div>
+
+     </main>
+
+     <footer onmouseover="xxx('./音乐/music.mp3')">
+        <div class="left all">
+            <img src="./img/边框.png" alt="">
+        </div>
+            <img src="./img/xia.png" alt="" id="mid">
+            <div class="right all">
+                <img src="./img/边框.png" alt="">
+            </div>
+     </footer>
+
+    <script src="./2024.js"></script>
+    
+  <script>
+    var audio;
+    var musicPlayed = false;
+
+    function xxx(musicSrc) {
+      if (!musicPlayed) {
+        audio = new Audio(musicSrc);
+        audio.loop = true; // 设置循环播放
+        audio.play();
+        musicPlayed = true;
+      }
+    }
+  </script>
+    
+   
+    
+</body>
+</html>
